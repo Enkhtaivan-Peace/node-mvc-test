@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+
+# Build output
+/dist/
+/build/
+/public/js/
+/public/css/
+
+# Dependency directories
+/.pnp/
+/.pnp.js
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# .env files for environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# NPM logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Webpack
+/.webpack/
+
+# Coverage directory from testing
+/coverage/
+
+# Tauri files (if using Tauri)
+/target/
+
+# Optional: Ignore compiled files for TypeScript projects
+*.tsbuildinfo

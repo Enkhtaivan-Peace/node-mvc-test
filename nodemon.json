@@ -1,0 +1,6 @@
+{
+  "watch": ["server.js", "views", "public/styles.css"],
+  "ext": "js,pug,css",
+  "ignore": ["node_modules"],
+  "exec": "node server.js"
+}
